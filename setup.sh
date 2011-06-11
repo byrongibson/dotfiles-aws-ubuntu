@@ -5,9 +5,10 @@ mkdir bin && cd bin
 
 # Install from repos
 sudo aptitude install -y vim
-sudo aptitude install -y git-core,git-doc,git-completion,git-svn
-sudo aptitude install -y python-setuptools,python-virtualenv,virtualenvwrapper,python-pip
-sudo aptitude install -y zsh,zsh-doc,zsh-lovers
+sudo aptitude install -y ssh 
+sudo aptitude install -y git-core git-doc git-completion git-svn
+sudo aptitude install -y python-setuptools python-virtualenv virtualenvwrapper python-pip
+sudo aptitude install -y zsh zsh-doc zsh-lovers
 
 # Setup git
 git config --global user.name "Byron Gibson"
