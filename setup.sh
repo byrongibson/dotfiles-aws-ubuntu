@@ -34,12 +34,13 @@ mkdir ~/bin && cd ~/bin
 git clone git://github.com/vim-scripts/Zenburn.git
 
 # Setup Zenburn
-sudo cp Zenburn/colors/zenburn.vim /usr/share/vim/vim73/colors/
+#sudo cp Zenburn/colors/zenburn.vim /usr/share/vim/vim73/colors/
 
 # Setup Gitflow, Gitflow Completion, Git Bash Completion, Git-sh, gitignore
 
 
 # Setup zsh
+#incomplete, need to auto-configure options
 zsh
 0
 mv .zshrc .zshrc-original
