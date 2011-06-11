@@ -10,6 +10,10 @@ sudo aptitude install -y git-core git-doc git-completion git-svn
 sudo aptitude install -y python-setuptools python-virtualenv virtualenvwrapper python-pip
 sudo aptitude install -y zsh zsh-doc zsh-lovers
 
+# Generate SSH keys for this machine
+# This part may not be able to be automated, requires manual password creation
+#ssh-keygen
+
 # Setup git
 git config --global user.name "Byron Gibson"
 git config --global user.email fbg111@gmail.com
